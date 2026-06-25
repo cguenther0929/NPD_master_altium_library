@@ -1,0 +1,18 @@
+﻿<ConstraintSets SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <Advanced SourceType="All" TypeFrom="All" NameFrom="Default Parallel Segment Adjasent" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="5e3cc9cc-1aa9-4312-b40c-8ee6a4d67989" Name="Default Parallel Segment Adjasent">
+    <AdvancedRuleItem Type="ParallelSegment" Id="KCNSHLPG" Name="Default Parallel Segment Adjasent" ScopeExpression="All" ScopeExpression2="All" IsEnabled="False" Priority="2" Comment="">
+      <ScopeExpressions />
+      <ParallelSegment Gap="50mil" Limit="5000mil" CheckingType="Adjacent" />
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+  <Advanced SourceType="All" TypeFrom="All" NameFrom="Default Parallel Segment Same Layer" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="37978e32-7307-4f84-ac8e-1bdc8c07c93e" Name="Default Parallel Segment Same Layer">
+    <AdvancedRuleItem Type="ParallelSegment" Id="DNLVAIQI" Name="Default Parallel Segment Same Layer" ScopeExpression="All" ScopeExpression2="All" IsEnabled="False" Priority="1" Comment="">
+      <ScopeExpressions />
+      <ParallelSegment Gap="50mil" Limit="5000mil" CheckingType="Same" />
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+</ConstraintSets>

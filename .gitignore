@@ -1,0 +1,23 @@
+# Altium generated / local artifacts
+*History/*
+__Previews/
+*.was
+*.htm
+*.bak
+*.log
+*.zip
+*.pdf
+*.csv
+*.xml
+*.REP
+*.RUL
+*.asc  
+*.txt
+*.psk
+*.jpf
+*.docx
+*.vsdx
+
+# OS / editor junk
+Thumbs.db
+.DS_Store

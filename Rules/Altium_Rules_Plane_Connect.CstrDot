@@ -1,0 +1,21 @@
+﻿<ConstraintSets SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <Advanced SourceType="All - All" TypeFrom="All - All" NameFrom="Default PlaneConnect" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="0828e371-6859-44ab-946c-91366b56d182" Name="Default PlaneConnect">
+    <AdvancedRuleItem Type="PowerPlaneConnectStyle" Id="PWCGXXYD" Name="Default PlaneConnect" ScopeExpression="All" ScopeExpression2="All" IsEnabled="True" Priority="1" Comment="">
+      <ScopeExpressions />
+      <PowerPlaneConnectStyle Advanced="False">
+        <Pad Expansion="20mil" AirGap="10mil" ConductorWidth="12mil" ConnectStyle="ReliefConnect" ConductorsCount="Four" />
+        <Via Expansion="20mil" AirGap="10mil" ConductorWidth="12mil" ConnectStyle="DirectConnect" ConductorsCount="Four" />
+      </PowerPlaneConnectStyle>
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+  <Advanced SourceType="All - All" TypeFrom="All - All" NameFrom="PlaneClearance" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="e831b600-2ca5-4c11-b0ea-b5c9b6b20db7" Name="PlaneClearance">
+    <AdvancedRuleItem Type="PowerPlaneClearance" Id="UXCXMDAI" Name="PlaneClearance" ScopeExpression="All" ScopeExpression2="All" IsEnabled="True" Priority="1" Comment="">
+      <ScopeExpressions />
+      <PowerPlaneClearance Clearance="20mil" />
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+</ConstraintSets>

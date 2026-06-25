@@ -1,0 +1,112 @@
+﻿<ConstraintSets SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <Advanced SourceType="All - All" TypeFrom="All - All" NameFrom="HoleSize" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="deb4eb6d-bfd7-48a1-8630-c105a817efb7" Name="HoleSize">
+    <AdvancedRuleItem Type="MaxMinHoleSize" Id="TNTXXPFE" Name="HoleSize" ScopeExpression="All" ScopeExpression2="All" IsEnabled="True" Priority="1" Comment="">
+      <ScopeExpressions />
+      <HoleSize Minimum="1mil" Maximum="100mil" MinimumPercents="0%" MaximumPercents="0%" MeasurementMethod="Absolute" />
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+  <Advanced SourceType="All" TypeFrom="All" NameFrom="HoleToHoleClearance - Default - DEFAULT" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="85c1a8b2-2272-405f-9231-30dbe38d9669" Name="HoleToHoleClearance - Default - DEFAULT">
+    <AdvancedRuleItem Type="HoleToHoleClearance" Id="QHLSWJOY" Name="HoleToHoleClearance - Default - DEFAULT" ScopeExpression="All" ScopeExpression2="All" IsEnabled="True" Priority="1" Comment="">
+      <ScopeExpressions />
+      <HoleToHoleClearance AllowStackedMicroVia="True" Clearance="8mil" />
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+  <Advanced SourceType="All - All" TypeFrom="All - All" NameFrom="LayerPairs" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="339b6496-f96d-4639-b787-d67f99dbe901" Name="LayerPairs">
+    <AdvancedRuleItem Type="LayerPair" Id="NTVFOGVY" Name="LayerPairs" ScopeExpression="All" ScopeExpression2="All" IsEnabled="True" Priority="1" Comment="">
+      <ScopeExpressions />
+      <LayerPairs EnforceLayerPairSettings="True" />
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+  <Advanced SourceType="All" TypeFrom="All" NameFrom="MinimumSolderMaskSliver" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="c9240942-c773-4d6a-ad55-c52397546900" Name="MinimumSolderMaskSliver">
+    <AdvancedRuleItem Type="MinimumSolderMaskSliver" Id="BPNMRIGM" Name="MinimumSolderMaskSliver" ScopeExpression="All" ScopeExpression2="All" IsEnabled="True" Priority="1" Comment="">
+      <ScopeExpressions />
+      <MinimumSolderMaskSliver Sliver="4mil" />
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+  <Advanced SourceType="All - All" TypeFrom="All - All" NameFrom="NetAntennae" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="bc7d30aa-f0f5-4f32-850a-95b8c8e97473" Name="NetAntennae">
+    <AdvancedRuleItem Type="NetAntennae" Id="WDDEAFHV" Name="NetAntennae" ScopeExpression="All" ScopeExpression2="All" IsEnabled="False" Priority="1" Comment="">
+      <ScopeExpressions />
+      <NetAntennae Tolerance="1000mil" />
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+  <Advanced SourceType="OnLayer('Top Layer')&#xD;&#xA;OR OnLayer('Bottom Layer')&#xD;&#xA;OR OnLayer('Mid Layer 1')&#xD;&#xA;OR OnLayer('Mid Layer 2') - All" TypeFrom="OnLayer('Top Layer')&#xD;&#xA;OR OnLayer('Bottom Layer')&#xD;&#xA;OR OnLayer('Mid Layer 1')&#xD;&#xA;OR OnLayer('Mid Layer 2') - All" NameFrom="NPD Board Outline Clearance" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="94a50079-67c3-45a3-8fe6-84e96266ac2f" Name="NPD Board Outline Clearance">
+    <AdvancedRuleItem Type="BoardOutlineClearance" Id="QJWQHPFR" Name="NPD Board Outline Clearance" ScopeExpression="OnLayer('Top Layer')&#xD;&#xA;OR OnLayer('Bottom Layer')&#xD;&#xA;OR OnLayer('Mid Layer 1')&#xD;&#xA;OR OnLayer('Mid Layer 2')" ScopeExpression2="All" IsEnabled="True" Priority="1" Comment="">
+      <ScopeExpressions />
+      <BoardOutlineClearance Minimum="10mil">
+        <ClearanceMap ClearanceFrom="OutlineEdge" ClearanceTo="Arc">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="OutlineEdge" ClearanceTo="Track">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="OutlineEdge" ClearanceTo="SMDPad">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="OutlineEdge" ClearanceTo="THPad">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="OutlineEdge" ClearanceTo="Via">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="OutlineEdge" ClearanceTo="Fill">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="OutlineEdge" ClearanceTo="Poly">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="OutlineEdge" ClearanceTo="Region">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="OutlineEdge" ClearanceTo="Text">0mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CavityEdge" ClearanceTo="Arc">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CavityEdge" ClearanceTo="Track">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CavityEdge" ClearanceTo="SMDPad">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CavityEdge" ClearanceTo="THPad">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CavityEdge" ClearanceTo="Via">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CavityEdge" ClearanceTo="Fill">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CavityEdge" ClearanceTo="Poly">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CavityEdge" ClearanceTo="Region">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CavityEdge" ClearanceTo="Text">0mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CutoutEdge" ClearanceTo="Arc">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CutoutEdge" ClearanceTo="Track">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CutoutEdge" ClearanceTo="SMDPad">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CutoutEdge" ClearanceTo="THPad">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CutoutEdge" ClearanceTo="Via">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CutoutEdge" ClearanceTo="Fill">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CutoutEdge" ClearanceTo="Poly">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CutoutEdge" ClearanceTo="Region">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="CutoutEdge" ClearanceTo="Text">0mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitBarrier" ClearanceTo="Arc">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitBarrier" ClearanceTo="Track">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitBarrier" ClearanceTo="SMDPad">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitBarrier" ClearanceTo="THPad">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitBarrier" ClearanceTo="Via">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitBarrier" ClearanceTo="Fill">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitBarrier" ClearanceTo="Poly">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitBarrier" ClearanceTo="Region">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitBarrier" ClearanceTo="Text">0mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitContinuation" ClearanceTo="Arc">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitContinuation" ClearanceTo="Track">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitContinuation" ClearanceTo="SMDPad">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitContinuation" ClearanceTo="THPad">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitContinuation" ClearanceTo="Via">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitContinuation" ClearanceTo="Fill">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitContinuation" ClearanceTo="Poly">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitContinuation" ClearanceTo="Region">10mil</ClearanceMap>
+        <ClearanceMap ClearanceFrom="SplitContinuation" ClearanceTo="Text">0mil</ClearanceMap>
+      </BoardOutlineClearance>
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+  <Advanced SourceType="All" TypeFrom="All" NameFrom="SilkToSilkClearance" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="bbf789e9-4f79-4e37-b61a-e0a68aa01cba" Name="SilkToSilkClearance">
+    <AdvancedRuleItem Type="SilkToSilkClearance" Id="DXIOONVY" Name="SilkToSilkClearance" ScopeExpression="All" ScopeExpression2="All" IsEnabled="True" Priority="1" Comment="">
+      <ScopeExpressions />
+      <SilkToSilkClearance Clearance="4mil" />
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+  <Advanced SourceType="IsPad" TypeFrom="IsPad" NameFrom="SilkToSolderMaskClearance" AssignedConstraintSetId="" IsClassFrom="False" IsPredefinedFrom="False"><![CDATA[﻿<AdvancedItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <AdvancedConstraintSet Id="cc743820-ab3c-4254-bb92-fb6f48f0f530" Name="SilkToSolderMaskClearance">
+    <AdvancedRuleItem Type="SilkToSolderMaskClearance" Id="SGCCDNXV" Name="SilkToSolderMaskClearance" ScopeExpression="IsPad" ScopeExpression2="All" IsEnabled="False" Priority="1" Comment="">
+      <ScopeExpressions />
+      <SilkToSolderMaskClearance Clearance="4mil" Mode="ExposedCooper" />
+    </AdvancedRuleItem>
+  </AdvancedConstraintSet>
+</AdvancedItem>]]></Advanced>
+</ConstraintSets>

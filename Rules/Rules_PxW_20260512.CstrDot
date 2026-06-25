@@ -1,0 +1,253 @@
+﻿<ConstraintSets SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <Physical SourceType="Net Class" TypeFrom="Net" NameFrom="All Nets" AssignedConstraintSetId="" IsClassFrom="True" IsPredefinedFrom="True"><![CDATA[﻿<PhysicalItem SerializerVersion="1.0" xmlns="http://altium.com/ns/ConstraintManager2">
+  <PhysicalConstraintSet Id="addf7adc-2052-4482-9e82-4e7cfbaf3a0e" Name="All Nets">
+    <PhysicalRule PhysicalRuleType="PolygonConnectStyle">
+      <PolygonConnectStyle Advanced="False">
+        <ConnectType Type="THPad" AirGap="10mil" ConductorWidth="10mil" ConnectStyle="ReliefConnect" Rotation="NinetyDegrees" ConductorsCount="Four" />
+        <ConnectType Type="SMDPad" AirGap="10mil" ConductorWidth="10mil" ConnectStyle="ReliefConnect" Rotation="NinetyDegrees" ConductorsCount="Four" />
+        <ConnectType Type="Via" AirGap="10mil" ConductorWidth="10mil" ConnectStyle="ReliefConnect" Rotation="NinetyDegrees" ConductorsCount="Four" />
+      </PolygonConnectStyle>
+    </PhysicalRule>
+    <PhysicalRule PhysicalRuleType="RoutingViaStyle">
+      <RoutingViaStyle ViaType="MinMax">
+        <Data ViaDiameterMin="26mil" ViaDiameterPreferred="26mil" ViaDiameterMax="26mil" ViaHoleSizeMin="10mil" ViaHoleSizePreferred="10mil" ViaHoleSizeMax="10mil" />
+        <Templates>
+          <Template TemplateId="{A4728AF7-6190-4FFD-93FC-4918A1F486A7}" Name="v66h25" Description="" IsEnabled="False" Library="&lt;Local&gt;" />
+          <Template TemplateId="{BCAD583F-B321-4E6D-A65B-5B41EFF2BBB0}" Name="v41h20" Description="" IsEnabled="False" Library="&lt;Local&gt;" />
+          <Template TemplateId="{7D308F1B-FD9A-46CF-B420-F9ABF0D11D5D}" Name="v81h38" Description="" IsEnabled="False" Library="&lt;Local&gt;" />
+          <Template TemplateId="{D5323180-2079-4D36-B320-4DA38AD48018}" Name="v30h20" Description="" IsEnabled="False" Library="&lt;Local&gt;" />
+          <Template TemplateId="{EE012FA6-046D-4B40-A7E9-8C7493D675F5}" Name="v41h20m71" Description="" IsEnabled="False" Library="&lt;Local&gt;" />
+        </Templates>
+      </RoutingViaStyle>
+    </PhysicalRule>
+    <PhysicalRule PhysicalRuleType="MaxMinWidth">
+      <Width Connected="False" ImpedanceId="" UseImpedanceProfile="False">
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="1" LayerName="[1] Top" MinimumWidth="5mil" PreferredWidth="8mil" MaximumWidth="150mil" />
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="4" LayerName="[2] Inner Layer 2" MinimumWidth="5mil" PreferredWidth="8mil" MaximumWidth="150mil" />
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="2" LayerName="[3] Inner Layer 3" MinimumWidth="5mil" PreferredWidth="8mil" MaximumWidth="150mil" />
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="3" LayerName="[4] Inner Layer 4" MinimumWidth="5mil" PreferredWidth="8mil" MaximumWidth="150mil" />
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="6" LayerName="[5] Inner Layer 5" MinimumWidth="5mil" PreferredWidth="8mil" MaximumWidth="150mil" />
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="32" LayerName="[6] Bottom" MinimumWidth="5mil" PreferredWidth="8mil" MaximumWidth="150mil" />
+      </Width>
+    </PhysicalRule>
+    <PhysicalRule PhysicalRuleType="DifferentialPairsRouting">
+      <DiffPair ImpedanceId="" UseImpedanceProfile="False" MaximumUncoupledLength="500mil">
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="1" LayerName="[1] Top" MinimumWidth="15mil" PreferredWidth="15mil" MaximumWidth="15mil" MinimumGap="10mil" PreferredGap="10mil" MaximumGap="10mil" />
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="4" LayerName="[2] Inner Layer 2" MinimumWidth="15mil" PreferredWidth="15mil" MaximumWidth="15mil" MinimumGap="10mil" PreferredGap="10mil" MaximumGap="10mil" />
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="2" LayerName="[3] Inner Layer 3" MinimumWidth="15mil" PreferredWidth="15mil" MaximumWidth="15mil" MinimumGap="10mil" PreferredGap="10mil" MaximumGap="10mil" />
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="3" LayerName="[4] Inner Layer 4" MinimumWidth="15mil" PreferredWidth="15mil" MaximumWidth="15mil" MinimumGap="10mil" PreferredGap="10mil" MaximumGap="10mil" />
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="6" LayerName="[5] Inner Layer 5" MinimumWidth="15mil" PreferredWidth="15mil" MaximumWidth="15mil" MinimumGap="10mil" PreferredGap="10mil" MaximumGap="10mil" />
+        <RoutingByLayer LayerStackId="ec0946f3-a3d6-4772-9823-544f1450f74b" LayerStackName="Board Layer Stack" LayerId="32" LayerName="[6] Bottom" MinimumWidth="15mil" PreferredWidth="15mil" MaximumWidth="15mil" MinimumGap="10mil" PreferredGap="10mil" MaximumGap="10mil" />
+      </DiffPair>
+    </PhysicalRule>
+    <PhysicalRule PhysicalRuleType="PhysicalClearance">
+      <PhysicalClearance>
+        <ClearanceByLayer LayerId="2147483645" LayerType="Outer" ScopeType="DifferentNetsOnly">
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Arc">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Track">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="SMDPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="THPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Via">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Arc" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Track">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="SMDPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="THPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Via">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Arc" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Track" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="SMDPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="THPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Via">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Arc" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Track" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="SMDPad" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="THPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Via">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Arc" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Track" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="SMDPad" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="THPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Via">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Arc" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Track" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="SMDPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="THPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Via" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Text">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Arc" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Track" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="SMDPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="THPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Via" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Fill" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Text">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Arc" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Track" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="SMDPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="THPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Via" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Fill" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Poly" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Text">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Arc" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Track" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="SMDPad" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="THPad" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Via" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Fill" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Poly" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Region" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Arc" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Track" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="SMDPad" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="THPad" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Via" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Fill" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Poly" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Region" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Text" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Hole">15mil</ClearanceMap>
+        </ClearanceByLayer>
+        <ClearanceByLayer LayerId="2147483646" LayerType="Inner" ScopeType="DifferentNetsOnly">
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Arc">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Track">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="SMDPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="THPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Via">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Arc" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Arc" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Track">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="SMDPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="THPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Via">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Track" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Arc" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Track" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="SMDPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="THPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Via">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="SMDPad" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Arc" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Track" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="SMDPad" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="THPad">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Via">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="THPad" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Arc" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Track" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="SMDPad" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="THPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Via">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Via" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Arc" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Track" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="SMDPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="THPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Via" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Fill">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Text">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Fill" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Arc" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Track" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="SMDPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="THPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Via" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Fill" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Poly">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Text">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Poly" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Arc" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Track" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="SMDPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="THPad" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Via" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Fill" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Poly" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Region">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Text">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Region" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Arc" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Track" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="SMDPad" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="THPad" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Via" IsInverted="True">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Fill" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Poly" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Region" IsInverted="True">8mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Text">5mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Text" ClearanceTo="Hole">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Arc" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Track" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="SMDPad" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="THPad" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Via" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Fill" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Poly" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Region" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Text" IsInverted="True">10mil</ClearanceMap>
+          <ClearanceMap ClearanceFrom="Hole" ClearanceTo="Hole">15mil</ClearanceMap>
+        </ClearanceByLayer>
+      </PhysicalClearance>
+    </PhysicalRule>
+  </PhysicalConstraintSet>
+</PhysicalItem>]]></Physical>
+</ConstraintSets>
