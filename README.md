@@ -14,10 +14,11 @@ Altium_Master_Library/
   Rules/
   SymbolLibs/
   Templates/ 
+  Documents/
 </pre>
 
 ## Dependencies
 All library file types as needed by Altium exist in this directory.  
 
 ## Tagged Versions 
-* v1.0.0 -- Initial commit. 
+* v1.0.0 -- Initial tag and commit. 
